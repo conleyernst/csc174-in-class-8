@@ -1,8 +1,19 @@
 body{
-	color: #1C0FDF;
+	background-color: #bcf0ff;
+	color: #3e1d0c;
+}
+
+.jumbotron{
+	background-color: #1a5e76;
+	color: #bcf0ff;
+}
+
+.jumbotron h1{
+	color: white;
 }
 
 
+/*Customizing Padding of Cards*/
 .card-columns{
 	padding: 50px;
 }
@@ -10,4 +21,17 @@ body{
 .card {
 	border-radius:10px;
     padding: 15px;
+}
+
+
+/* customizing buttons */
+.btn-primary{
+	color: #2481a1;
+	background-color: #ffdaab;
+	border-color: #ffdaab;
+}
+
+.btn-primary:hover{
+	background-color: #2481a1;
+	border-color: #2481a1;
 }
